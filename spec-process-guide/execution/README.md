@@ -20,7 +20,6 @@ Practical guidance for implementing features from completed specs.
 
 - **[Implementation Guide](implementation-guide.md)** - Step-by-step execution strategies
 - **[Quality Assurance](quality-assurance.md)** - Testing and validation techniques
-- **[Troubleshooting](troubleshooting.md)** - Common issues and solutions
 
 ## From Spec to Code
 

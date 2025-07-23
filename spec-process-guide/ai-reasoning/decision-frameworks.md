@@ -2,14 +2,14 @@
 
 <!-- Navigation Metadata -->
 <!-- AI Reasoning: Decision Frameworks | Level: Advanced | Prerequisites: methodology/README.md -->
-<!-- Related: process/design-phase.md, prompting/strategies.md, examples/complex-system-spec.md -->
+<!-- Related: process/design-phase.md, prompting/README.md, examples/complex-system-spec.md -->
 
 **📍 You are here:** [Main Guide](../../README.md) → [AI Reasoning](README.md) → **Decision Frameworks**
 
 ## Quick Navigation
 - **📚 Foundation:** [Methodology Overview](../methodology/README.md) - Understand the context first
 - **📋 Apply to Design:** [Design Phase](../process/design-phase.md) - Use frameworks for design decisions
-- **💬 Better Prompting:** [Prompting Strategies](../prompting/strategies.md) - Leverage understanding for better AI collaboration
+- **💬 Better Prompting:** [Prompting Strategies](../prompting/README.md) - Leverage understanding for better AI collaboration
 - **🏗️ Complex Examples:** [Complex System Specs](../examples/complex-system-spec.md) - See frameworks in action
 
 ---

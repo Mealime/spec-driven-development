@@ -20,7 +20,6 @@ Curated references and learning materials to deepen your understanding of spec-d
 
 - **[Standards](standards.md)** - EARS format and industry requirements engineering standards
 - **[Tools](tools.md)** - Recommended tools and integrations for spec development
-- **[Further Reading](further-reading.md)** - Books, articles, and additional learning resources
 
 ## Quick Reference
 

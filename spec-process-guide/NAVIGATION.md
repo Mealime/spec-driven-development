@@ -17,7 +17,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 1. [Requirements Template](templates/requirements-template.md) - Start here
 2. [Requirements Phase Guide](process/requirements-phase.md) - Detailed instructions
 3. [EARS Standards](resources/standards.md) - Format reference
-4. [Prompting Strategies](prompting/strategies.md) - Get better AI help
+4. [Prompting Strategies](prompting/README.md) - Get better AI help
 
 ### Working with AI Systems
 1. [Prompting Strategies](prompting/README.md) - Core communication techniques
@@ -58,7 +58,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 - [Troubleshooting Examples](examples/troubleshooting-pitfalls.md) - Common mistakes
 
 ### AI Collaboration
-- [Prompting Strategies](prompting/strategies.md) - Core communication approaches
+- [Prompting Strategies](prompting/README.md) - Core communication approaches
 - [Prompt Templates](prompting/templates.md) - Ready-to-use patterns
 - [Best Practices](prompting/best-practices.md) - Effective techniques
 - [AI Decision Frameworks](ai-reasoning/decision-frameworks.md) - How AI makes choices
@@ -94,7 +94,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### AI Practitioners
 **Start Here:** [AI Reasoning](ai-reasoning/README.md)
 - [Decision Frameworks](ai-reasoning/decision-frameworks.md) - Systematic decision-making
-- [Prompting Strategies](prompting/strategies.md) - Effective communication
+- [Prompting Strategies](prompting/README.md) - Effective communication
 - [Best Practices](prompting/best-practices.md) - Advanced techniques
 - [Thought Processes](ai-reasoning/examples.md) - Reasoning examples
 
@@ -110,7 +110,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 → [Design Phase Guide](process/design-phase.md) → [AI Decision Frameworks](ai-reasoning/decision-frameworks.md) → [Complex Examples](examples/complex-system-spec.md)
 
 ### "My AI collaboration isn't working well"
-→ [Prompting Strategies](prompting/strategies.md) → [Best Practices](prompting/best-practices.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
+→ [Prompting Strategies](prompting/README.md) → [Best Practices](prompting/best-practices.md) → [Troubleshooting](examples/troubleshooting-pitfalls.md)
 
 ### "I'm stuck during implementation"
 → [Implementation Guide](execution/implementation-guide.md) → [Quality Assurance](execution/quality-assurance.md) → [Execution Troubleshooting](execution/README.md)
@@ -156,7 +156,7 @@ This comprehensive index provides multiple ways to navigate the Spec-Driven Deve
 ### Design ↔ Related Content
 - **Design Phase** ↔ [AI Decision Frameworks](ai-reasoning/decision-frameworks.md), [Design Template](templates/design-template.md)
 - **Architecture Decisions** ↔ [Complex Examples](examples/complex-system-spec.md), [Case Studies](examples/case-studies.md)
-- **Technical Research** ↔ [Prompting Strategies](prompting/strategies.md), [Best Practices](prompting/best-practices.md)
+- **Technical Research** ↔ [Prompting Strategies](prompting/README.md), [Best Practices](prompting/best-practices.md)
 
 ### Tasks ↔ Related Content
 - **Tasks Phase** ↔ [Implementation Guide](execution/implementation-guide.md), [Tasks Template](templates/tasks-template.md)

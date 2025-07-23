@@ -18,7 +18,7 @@ Effective communication techniques for successful AI collaboration during spec d
 
 ## In This Section
 
-- **[Strategies](strategies.md)** - Core approaches for clear, effective prompting
+- **[Strategies](#key-principles)** - Core approaches for clear, effective prompting (see below)
 - **[Templates](templates.md)** - Ready-to-use prompt patterns for each phase
 - **[Best Practices](best-practices.md)** - Tips for getting better results
 
@@ -40,4 +40,4 @@ Effective prompting for spec development follows these principles:
 
 ---
 
-[← Back to Main Guide](../../README.md) | [Learn Core Strategies →](strategies.md)
+[← Back to Main Guide](../../README.md) | [View Templates →](templates.md)

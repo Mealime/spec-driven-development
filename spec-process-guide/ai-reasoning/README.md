@@ -2,13 +2,13 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: AI Reasoning | Level: Overview | Prerequisites: methodology/README.md, process/README.md -->
-<!-- Related: prompting/strategies.md, examples/case-studies.md, process/design-phase.md -->
+<!-- Related: prompting/README.md, examples/case-studies.md, process/design-phase.md -->
 
 **📍 You are here:** [Main Guide](../../README.md) → **AI Reasoning**
 
 ## Quick Navigation
 - **Foundation:** [Methodology](../methodology/README.md) - Understand the spec process first
-- **Apply Learning:** [Prompting Strategies](../prompting/strategies.md) - Use insights for better AI collaboration
+- **Apply Learning:** [Prompting Strategies](../prompting/README.md) - Use insights for better AI collaboration
 - **See in Action:** [Case Studies](../examples/case-studies.md) - Real examples of AI reasoning
 - **Design Context:** [Design Phase](../process/design-phase.md) - Where reasoning is most critical
 
@@ -19,7 +19,6 @@ Insights into the decision-making frameworks and thought processes used during s
 ## In This Section
 
 - **[Decision Frameworks](decision-frameworks.md)** - How choices are evaluated and prioritized
-- **[Thought Processes](thought-processes.md)** - Analysis methods and reasoning chains
 - **[Examples](examples.md)** - Real decision points with detailed explanations
 
 ## Understanding AI Decision-Making

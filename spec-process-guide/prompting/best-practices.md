@@ -1,13 +1,13 @@
 # Prompting Best Practices
 
 <!-- Navigation Metadata -->
-<!-- Prompting: Best Practices | Level: Practical Guide | Prerequisites: prompting/strategies.md -->
+<!-- Prompting: Best Practices | Level: Practical Guide | Prerequisites: prompting/README.md -->
 <!-- Related: ai-reasoning/decision-frameworks.md, examples/troubleshooting-pitfalls.md, templates/README.md -->
 
 **📍 You are here:** [Main Guide](../../README.md) → [Prompting Strategies](README.md) → **Best Practices**
 
 ## Quick Navigation
-- **📚 Learn Strategies:** [Prompting Strategies](strategies.md) - Core approaches first
+- **📚 Learn Strategies:** [Prompting Strategies](README.md) - Core approaches first
 - **📝 Use Templates:** [Prompt Templates](templates.md) - Ready-to-use patterns
 - **🧠 Understand AI:** [Decision Frameworks](../ai-reasoning/decision-frameworks.md) - How AI makes choices
 - **🔧 Fix Problems:** [Troubleshooting Guide](../examples/troubleshooting-pitfalls.md) - When prompting goes wrong

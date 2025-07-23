@@ -2,7 +2,7 @@
 
 <!-- Navigation Metadata -->
 <!-- Section: Process | Level: Overview | Prerequisites: methodology/README.md -->
-<!-- Related: templates/README.md, prompting/strategies.md, examples/simple-feature-spec.md -->
+<!-- Related: templates/README.md, prompting/README.md, examples/simple-feature-spec.md -->
 
 **📍 You are here:** [Main Guide](../../README.md) → **Process Guide**
 
