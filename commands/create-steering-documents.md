@@ -20,21 +20,26 @@ Create steering documents for [project description]
 You are an expert at creating project steering documents that provide contextual guidance for development work. Follow this systematic approach:
 
 ### 1. Project Analysis
+
 First, analyze the project requirements and determine which steering documents are needed:
 
 **For Frontend Projects (React, Vue, Angular):**
+
 - Include: project-standards.md, git-workflow.md, frontend-standards.md, development-environment.md
 - Consider: component-library.md, testing-strategy.md
 
 **For Backend/API Projects (Node.js, Python, Java):**
+
 - Include: project-standards.md, git-workflow.md, api-design.md, development-environment.md
 - Consider: database-standards.md, security-guidelines.md
 
 **For Full-Stack Projects:**
+
 - Include: All core documents plus technology-specific ones
 - Consider: deployment-standards.md, monitoring-guidelines.md
 
 **For Library/Package Projects:**
+
 - Include: project-standards.md, git-workflow.md, documentation-standards.md
 - Consider: versioning-strategy.md, publishing-guidelines.md
 
@@ -44,13 +49,15 @@ Create steering documents using these templates and guidelines:
 
 #### Core Documents (Always Create)
 
-**project-standards.md** - #[[file:.kiro/steering/project-standards.md]]
+**project-standards.md** - #[[file:.spec-driven-development/steering/project-standards.md]]
+
 - Adapt code quality standards to project language/framework
 - Customize testing requirements based on project complexity
 - Include project-specific documentation needs
 - Set security practices relevant to the domain
 
-**git-workflow.md** - #[[file:.kiro/steering/git-workflow.md]]
+**git-workflow.md** - #[[file:.spec-driven-development/steering/git-workflow.md]]
+
 - Adjust branch naming for team size and release strategy
 - Customize commit message format for project needs
 - Set appropriate review requirements
@@ -58,37 +65,43 @@ Create steering documents using these templates and guidelines:
 
 #### Conditional Documents (Create Based on Project Type)
 
-**frontend-standards.md** - #[[file:.kiro/steering/frontend-standards.md]]
+**frontend-standards.md** - #[[file:.spec-driven-development/steering/frontend-standards.md]]
+
 ```yaml
 ---
 inclusion: fileMatch
-fileMatchPattern: '*.tsx|*.jsx|*.vue|*.svelte|*.ts|*.js'
+fileMatchPattern: "*.tsx|*.jsx|*.vue|*.svelte|*.ts|*.js"
 ---
 ```
+
 - Customize for specific framework (React/Vue/Angular)
 - Include design system and styling approach
 - Set accessibility requirements
 - Define performance standards
 
-**api-design.md** - #[[file:.kiro/steering/api-design.md]]
+**api-design.md** - #[[file:.spec-driven-development/steering/api-design.md]]
+
 ```yaml
 ---
 inclusion: fileMatch
-fileMatchPattern: '*api*|*route*|*controller*|*endpoint*'
+fileMatchPattern: "*api*|*route*|*controller*|*endpoint*"
 ---
 ```
+
 - Adapt REST/GraphQL standards to project needs
 - Include authentication/authorization patterns
 - Set error handling conventions
 - Define API versioning strategy
 
-**development-environment.md** - #[[file:.kiro/steering/development-environment.md]]
+**development-environment.md** - #[[file:.spec-driven-development/steering/development-environment.md]]
+
 ```yaml
 ---
 inclusion: fileMatch
-fileMatchPattern: 'package.json|requirements.txt|Dockerfile|docker-compose.yml|Makefile'
+fileMatchPattern: "package.json|requirements.txt|Dockerfile|docker-compose.yml|Makefile"
 ---
 ```
+
 - Customize for project's tech stack
 - Include specific tooling requirements
 - Set environment variable patterns
@@ -97,6 +110,7 @@ fileMatchPattern: 'package.json|requirements.txt|Dockerfile|docker-compose.yml|M
 ### 3. Content Customization Guidelines
 
 **Language/Framework Specific Adaptations:**
+
 - **JavaScript/TypeScript**: ESLint, Prettier, Jest, package.json scripts
 - **Python**: Black, flake8, pytest, requirements.txt, virtual environments
 - **Java**: Checkstyle, Maven/Gradle, JUnit, Spring Boot conventions
@@ -104,11 +118,13 @@ fileMatchPattern: 'package.json|requirements.txt|Dockerfile|docker-compose.yml|M
 - **Rust**: rustfmt, Cargo.toml, cargo test, clippy
 
 **Project Scale Adaptations:**
+
 - **Small Projects**: Lightweight processes, minimal tooling
 - **Team Projects**: Code review requirements, shared standards
 - **Enterprise**: Comprehensive security, compliance, documentation
 
 **Domain Specific Considerations:**
+
 - **E-commerce**: PCI compliance, performance, security
 - **Healthcare**: HIPAA compliance, data privacy, audit trails
 - **Finance**: Security standards, regulatory compliance
@@ -117,6 +133,7 @@ fileMatchPattern: 'package.json|requirements.txt|Dockerfile|docker-compose.yml|M
 ### 4. File Reference Integration
 
 Include relevant external files using the `#[[file:path]]` syntax:
+
 - OpenAPI specifications for API projects
 - Database schemas for backend projects
 - Design system tokens for frontend projects
@@ -125,6 +142,7 @@ Include relevant external files using the `#[[file:path]]` syntax:
 ### 5. Quality Checklist
 
 Before finalizing steering documents, ensure:
+
 - [ ] All documents have appropriate front-matter for inclusion logic
 - [ ] Guidelines are specific and actionable, not generic
 - [ ] Examples are provided for complex concepts
@@ -137,18 +155,20 @@ Before finalizing steering documents, ensure:
 
 Use these comprehensive guides for creating steering documents:
 
-**Creation Guide:** #[[file:.kiro/steering/steering-creation-guide.md]]
+**Creation Guide:** #[[file:.spec-driven-development/steering/steering-creation-guide.md]]
 
 **Template Examples:**
-- #[[file:.kiro/steering/project-standards.md]]
-- #[[file:.kiro/steering/git-workflow.md]]
-- #[[file:.kiro/steering/frontend-standards.md]]
-- #[[file:.kiro/steering/api-design.md]]
-- #[[file:.kiro/steering/development-environment.md]]
+
+- #[[file:.spec-driven-development/steering/project-standards.md]]
+- #[[file:.spec-driven-development/steering/git-workflow.md]]
+- #[[file:.spec-driven-development/steering/frontend-standards.md]]
+- #[[file:.spec-driven-development/steering/api-design.md]]
+- #[[file:.spec-driven-development/steering/development-environment.md]]
 
 ## Output Format
 
-Create a complete set of steering documents in the `.kiro/steering/` directory with:
+Create a complete set of steering documents in the `.spec-driven-development/steering/` directory with:
+
 1. Appropriate front-matter for inclusion logic
 2. Project-specific content and examples
 3. Clear, actionable guidelines
