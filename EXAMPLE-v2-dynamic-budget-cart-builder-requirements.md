@@ -39,13 +39,13 @@ Focus on using code context from
 @swagger.json and @mobile/ to inform requirements.
 
 v2 Dynamic Budget Cart Builder user stories:
-As a budget-conscious shopper, I want to input how many meals I need and my total budget, so that I can receive a plan that fits my financial goals.
-As a user, I want to see a “Plan X meals under $X” wizard, so I can quickly generate a meal plan that meets my budget without manual searching.
-As a user, I want to shuffle meal options within my budget, so I can explore different combinations without exceeding my limit.
-As a user, I want to refine my preferences (e.g., vegetarian, gluten-free, no seafood), so the recommendations are more relevant to my needs.
-As a user, I want to see a real-time “Final Cost” as I add or remove items, so I can stay within budget while building my list.
-As a user, I want to receive alerts when I’m approaching or exceeding my budget, so I can make informed trade-offs.
-As a user, I want to add all selected meals and items to my shopping list or cart with one tap, so I can check out quickly.
+- As a budget-conscious shopper, I want to input how many meals I need and my total budget, so that I can receive a plan that fits my financial goals.
+- As a user, I want to see a “Plan X meals under $X” wizard, so I can quickly generate a meal plan that meets my budget without manual searching.
+- As a user, I want to shuffle meal options within my budget, so I can explore different combinations without exceeding my limit.
+- As a user, I want to refine my preferences (e.g., vegetarian, gluten-free, no seafood), so the recommendations are more relevant to my needs.
+- As a user, I want to see a real-time “Final Cost” as I add or remove items, so I can stay within budget while building my list.
+- As a user, I want to receive alerts when I’m approaching or exceeding my budget, so I can make informed trade-offs.
+- As a user, I want to add all selected meals and items to my shopping list or cart with one tap, so I can check out quickly.
 
 The user facing interface will be dependent on a new backend optimization engine that uses an optimization algo (greedy bag etc) to intelligently combine recipes and products to maximize value of a users budget by combining recipes to use up whole products and reduce food waste.
 
